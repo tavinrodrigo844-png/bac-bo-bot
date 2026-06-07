@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Token do bot
-BOT_TOKEN = os.getenv("8698797816:AAHANQTdKwZ5pGL-1fpZKIVmldgUg6vhBo0", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8698797816:AAHANQTdKwZ5pGL-1fpZKIVmldgUg6vhBo0")
 
 # Armazenar resultados
 resultados = []
