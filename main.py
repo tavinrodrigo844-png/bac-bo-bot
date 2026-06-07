@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Token do bot
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("8698797816:AAHANQTdKwZ5pGL-1fpZKIVmldgUg6vhBo0", "")
 
 # Armazenar resultados
 resultados = []
@@ -79,7 +79,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Inicia o bot"""
     if not BOT_TOKEN:
-        print("❌ BOT_TOKEN não configurado!")
+        print("8698797816:AAHANQTdKwZ5pGL-1fpZKIVmldgUg6vhBo0")
         return
     
     app = Application.builder().token(BOT_TOKEN).build()
